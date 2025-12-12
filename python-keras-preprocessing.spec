@@ -4,7 +4,7 @@
 Summary:	Data preprocessing and data augmentation module for Keras
 Name:		python-%{module}
 Version:	1.1.2
-Release:	2
+Release:	3
 Source0:	https://github.com/keras-team/keras-preprocessing/archive/refs/tags/%{version}/%{module}-%{version}.tar.gz
 #Source0:	https://pypi.io/packages/source/%{mod}/%{module}/%{module}-%{version}.tar.gz
 License:	Expat
