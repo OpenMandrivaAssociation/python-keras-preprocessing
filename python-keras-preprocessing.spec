@@ -4,17 +4,17 @@
 Summary:	Data preprocessing and data augmentation module for Keras
 Name:		python-%{module}
 Version:	1.1.2
-Release:	4
+Release:	5
 Source0:	https://github.com/keras-team/keras-preprocessing/archive/refs/tags/%{version}/%{module}-%{version}.tar.gz
 #Source0:	https://pypi.io/packages/source/%{mod}/%{module}/%{module}-%{version}.tar.gz
 License:	Expat
 Group:		Development/Python
 Url:		https://keras.io/
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3dist(python-distutils-extra)
-BuildRequires:	python3dist(numpy)
-BuildRequires:	python3dist(six)
-BuildRequires:	python3dist(setuptools)
+BuildRequires:	python%{pyver}dist(python-distutils-extra)
+BuildRequires:	python%{pyver}dist(numpy)
+BuildRequires:	python%{pyver}dist(six)
+BuildRequires:	python%{pyver}dist(setuptools)
 
 BuildArch:	noarch
 
